@@ -1,8 +1,0 @@
-* D:\TCIIRepository\TCII\TS4\Draft3.asc
-V1 N001 0 AC 1 0
-R1 N002 N001 0.235
-L1 N002 0 {1/1.41}
-C1 N002 0 {1/1.41}
-.ac dec 100 0.0001 100k
-.backanno
-.end
