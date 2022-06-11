@@ -10,8 +10,8 @@ import scipy.signal as sig
 import math as m
 import splane as sp
 import matplotlib.pyplot as plt
-k = 1/4
-myFilter_hand = sig.TransferFunction([1,-0.2588/m.sqrt(2),0.2588**2], [1,0.2588/m.sqrt(2),0.2588**2])
+
+myFilter_hand = sig.TransferFunction([1,-0.517/(1/m.sqrt(2)),0.517**2], [1,0.517/(1/m.sqrt(2)),0.517**2])
 
 w, mag, phase = sig.bode(myFilter_hand)
 plt.figure()
