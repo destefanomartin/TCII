@@ -13,6 +13,8 @@ import matplotlib.pyplot as plt
 
 myFilter_hand = sig.TransferFunction([1,-0.517/(1/m.sqrt(2)),0.517**2], [1,0.517/(1/m.sqrt(2)),0.517**2])
 
+
+
 w, mag, phase = sig.bode(myFilter_hand)
 plt.figure()
 plt.title('Magnitude response')
