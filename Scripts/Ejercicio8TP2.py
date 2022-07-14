@@ -14,6 +14,8 @@ import splane as sp
 import matplotlib as plt 
 import math as m
 
+print("Atenuacion minima banda de stop: ", 20*np.log10(0.02*0.2/2))
+
 
 att_min = 53.98 
 att_max = 1.0

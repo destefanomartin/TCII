@@ -5,11 +5,6 @@ Created on Fri Jun 17 23:03:56 2022
 @author: Deste
 """
 
-import numpy as np 
-import scipy.signal as sig 
-import math as m
-import splane as sp
-import matplotlib.pyplot as plt
     
 # -----  LOWPASS ------
 # num1 = [1, 1]
