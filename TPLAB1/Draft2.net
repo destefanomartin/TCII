@@ -1,9 +1,0 @@
-* D:\TCIIRepository\TCII\TPLAB1\Draft2.asc
-V1 N001 0 AC 1 0
-L1 N001 N002 1.5
-C1 N002 0 1.333
-L2 N002 N003 0.5
-R1 N003 0 1
-.ac dec 100 0.1 100
-.backanno
-.end
