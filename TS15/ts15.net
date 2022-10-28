@@ -1,0 +1,12 @@
+* D:\TCIIRepository\TCII\TS15\ts15.asc
+V1 N001 0 SINE(0 1 1 0 0 0 1000) AC 1 0 Rser=50
+L1 N001 N002 {2.098984325*50/frec}
+C1 N002 0 {1.0644605/(50*frec)}
+L2 N002 N003 {2.83104364*50/frec}
+R1 N003 0 {2.65960419*50}
+C2 N003 0 {0.789209287/(50*frec)}
+.net I(R1) V1
+.ac dec 1000 100k 100Meg
+.param frec={2*3.14159265*10Meg}
+.backanno
+.end
